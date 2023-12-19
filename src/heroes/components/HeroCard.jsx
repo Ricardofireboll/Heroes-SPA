@@ -21,7 +21,7 @@ export const HeroCard = ({
   return (
     <>
         <Link to={`/hero/${id}`} className="my-card animate__animated animate__fadeIn">
-            <img src={`https://ricardofireboll.github.io/assets/heroes/${id}.jpg`} className="" alt={superhero}/>
+            <img src={`https://ricardofireboll.github.io/Heroes-SPA/assets/heroes/${id}.jpg`} className="" alt={superhero}/>
             <div className="profile-name">{superhero}</div>
             <div className="profile-position">{alter_ego}</div>
             <div className="profile-overview">
