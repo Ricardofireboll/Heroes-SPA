@@ -22,7 +22,17 @@ export const HeroPage = () => {
     <div className="row mt-5 ">
       <div className="col-4" >
         <img 
-          src= { `https://ricardofireboll.github.io/Heroes-SPA/heroes/${ heroeId }.jpg` } 
+          src= { `https://ricardofireboll.github.io/Heroes-SPA/heroes/${heroeId}.jpg` } 
+          alt= { hero.id }
+          className="img-thumbnail animate__animated animate__fadeInLeft" 
+        />
+        <img 
+          src= { `./heroes/${ heroeId }.jpg` } 
+          alt= { hero.id }
+          className="img-thumbnail animate__animated animate__fadeInLeft" 
+        />
+        <img 
+          src= { `Heroes-SPA/heroes/${ heroeId }.jpg` } 
           alt= { hero.id }
           className="img-thumbnail animate__animated animate__fadeInLeft" 
         />
